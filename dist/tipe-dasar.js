@@ -3,7 +3,7 @@
 Object.defineProperty(exports, "__esModule", { value: true });
 // ─── 1. TIPE PRIMITIF ────────────────────────────────────────────
 let namaLengkap = "Ajeng Nielza Itsna Mufida";
-let usia = 19;
+let usia = 18;
 let aktif = true;
 // Type inference — TypeScript bisa tebak sendiri
 let kota = "Malang"; // TypeScript tahu ini string
