@@ -70,7 +70,6 @@ console.log("\n=== Data Mentor ===");
 console.log("Nama      :", mentor1.nama);
 console.log("Email     :", mentor1.email);
 console.log("Keahlian  :", mentor1.keahlian.join(", "));
-
 console.log("\nReview:");
 console.log(
   mentor1.review(

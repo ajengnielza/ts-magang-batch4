@@ -86,6 +86,5 @@ function tampilkanPeserta(nama) {
     }
 }
 tampilkanPeserta("Ajeng");
-tampilkanPeserta("Saida");
 tampilkanPeserta("Azaa");
 //# sourceMappingURL=interfaces-dasar.js.map
