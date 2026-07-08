@@ -18,7 +18,7 @@ const penilaianAzalyn = {
 };
 const faseAzalyn = "fase 5";
 console.log("\n=== HASIL PENILAIAN ===");
-console.log("Fase:", faseAjeng);
+console.log("FaseAjeng:", faseAjeng);
 console.log("Hasil Penilaian:", penilaianAjeng);
 console.log("Fase:", faseAzalyn);
 console.log("Hasil Penilaian:", penilaianAzalyn);
