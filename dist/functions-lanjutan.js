@@ -1,7 +1,4 @@
 "use strict";
-// =========================================
-// FUNCTIONS LANJUTAN
-// =========================================
 Object.defineProperty(exports, "__esModule", { value: true });
 const daftarPeserta = [
     { id: 1, nama: "Ajeng", nilai: 90 },
