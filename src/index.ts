@@ -1,4 +1,4 @@
-
+// modules (export and import)
 import { Peserta } from "./types/peserta";
 import { isNamaValid, isNilaiValid } from "./utils/validasi";
 
@@ -30,6 +30,7 @@ for (const peserta of daftarPeserta) {
     console.log("----------------------");
 }
 
+//Generic function
 function getLast<T>(arr: T[]): T {
   return arr[arr.length - 1];
 }
@@ -38,6 +39,7 @@ console.log("\n Get Last ");
 console.log(getLast(["ajeng","saida","lala"]));
 console.log(getLast([1,2,3,4,5]));
 
+// Generic Interface
 interface Respon<T> {
         success: boolean;
         data: T;

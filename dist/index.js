@@ -24,6 +24,7 @@ for (const peserta of daftarPeserta) {
     console.log("Nilai valid :", (0, validasi_1.isNilaiValid)(peserta.nilai));
     console.log("----------------------");
 }
+//Generic function
 function getLast(arr) {
     return arr[arr.length - 1];
 }
