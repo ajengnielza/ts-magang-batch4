@@ -12,9 +12,6 @@ class Pengguna {
     }
 }
 class PesertaMagang extends Pengguna {
-    get nilai() {
-        return this.nilaiList;
-    }
     constructor(nama, email, sekolah, fase = 1) {
         super(nama, email);
         this.sekolah = sekolah;
@@ -62,5 +59,4 @@ terurut.forEach((p) => {
 });
 const response = buatResponse(terurut, "Data peserta berhasil dimuat");
 console.log(response);
-console.log(ajeng.nilai);
 //# sourceMappingURL=integrasi-minggu3.js.map
