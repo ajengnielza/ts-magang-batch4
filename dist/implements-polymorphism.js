@@ -22,7 +22,7 @@ class NotifikasiDasar {
 }
 class NotifikasiUrgent extends NotifikasiDasar {
     kirim() {
-        return ` Notifikasi Urgent: ${this.pesan}`;
+        return `Notifikasi Urgent: ${this.pesan}`;
     }
     isValid() {
         return this.pesan.length > 0;
@@ -46,7 +46,7 @@ class Laporan {
 }
 class LaporanHarian extends Laporan {
     generate() {
-        return ` Laporan Harian : ${this.judul}`;
+        return `Laporan Harian : ${this.judul}`;
     }
 }
 class LaporanMingguan extends Laporan {
@@ -56,7 +56,7 @@ class LaporanMingguan extends Laporan {
 }
 class LaporanBulanan extends Laporan {
     generate() {
-        return `📆 Laporan Bulanan : ${this.judul}`;
+        return `Laporan Bulanan : ${this.judul}`;
     }
 }
 const daftarLaporan = [

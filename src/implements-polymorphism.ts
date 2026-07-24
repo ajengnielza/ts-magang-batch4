@@ -45,7 +45,7 @@ abstract class NotifikasiDasar implements DapatDiverifikasi {
 class NotifikasiUrgent extends NotifikasiDasar {
 
     kirim(): string {
-        return ` Notifikasi Urgent: ${this.pesan}`;
+        return `Notifikasi Urgent: ${this.pesan}`;
     }
 
     isValid(): boolean {
@@ -80,7 +80,7 @@ abstract class Laporan {
 class LaporanHarian extends Laporan {
 
     generate(): string {
-        return ` Laporan Harian : ${this.judul}`;
+        return `Laporan Harian : ${this.judul}`;
     }
 }
 
