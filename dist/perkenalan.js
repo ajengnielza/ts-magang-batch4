@@ -8,7 +8,7 @@ const targetSelesaiMagang = 2026; // tahun targe
 // Buat fungsi perkenalan
 function perkenalan(nama, sekolah, sudahJS) {
     const statusJS = sudahJS ? "sudah" : "belum";
-    return `Nama saya ${nama} dari ${sekolah}. Saya ${statusJS} belajar JavaScript sebelumnya.`;
+    return `Nama saya ${nama} dari ${sekolah} kota ${kota}. Saya ${statusJS} belajar JavaScript sebelumnya. selesei pkl tahun ${targetSelesaiMagang}`;
 }
 console.log(perkenalan(namaSaya, asalSekolah, sudahBelajarJavaScript));
 //# sourceMappingURL=perkenalan.js.map

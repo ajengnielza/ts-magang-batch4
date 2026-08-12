@@ -10,9 +10,10 @@ function perkenalan(
   nama: string,
   sekolah: string,
   sudahJS: boolean
+
 ): string {
   const statusJS = sudahJS ? "sudah" : "belum";
-  return `Nama saya ${nama} dari ${sekolah}. Saya ${statusJS} belajar JavaScript sebelumnya.`;
+  return `Nama saya ${nama} dari ${sekolah} kota ${kota}. Saya ${statusJS} belajar JavaScript sebelumnya. selesei pkl tahun ${targetSelesaiMagang}`;
 }
 
-console.log(perkenalan(namaSaya, asalSekolah, sudahBelajarJavaScript));
+console.log(perkenalan(namaSaya, asalSekolah, sudahBelajarJavaScript, ));
