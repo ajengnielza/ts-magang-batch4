@@ -1,6 +1,6 @@
 import {Peserta, JurnalHarian} from "./models";
-import { formatTanggal, isEmailValid } from "./utils";
-import {StatusPeserta} from "./types";
+import { formatTanggal, isEmailValid} from "./utils";
+import { StatusPeserta } from "./types";
 
 const peserta1 = new Peserta(
     "Ajeng",
@@ -19,9 +19,16 @@ const jurnal = new JurnalHarian(
   formatTanggal(new Date()),
   "Mempelajari export dan import TypeScript"
 );
-
 console.log(jurnal.tampilkan());
 
 const status: StatusPeserta = "aktif";
-
 console.log("Status:", status);
+
+const validate = {
+  email(email: string): boolean {
+    return isEmailValid(email);
+  }
+};
+
+console.log(validate.email("ajeng@gmail.com"));
+console.log(validate.email("ajenggmail.com"));

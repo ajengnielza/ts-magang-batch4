@@ -10,4 +10,11 @@ const jurnal = new models_1.JurnalHarian((0, utils_1.formatTanggal)(new Date()),
 console.log(jurnal.tampilkan());
 const status = "aktif";
 console.log("Status:", status);
+const validate = {
+    email(email) {
+        return (0, utils_1.isEmailValid)(email);
+    }
+};
+console.log(validate.email("ajeng@gmail.com"));
+console.log(validate.email("ajenggmail.com"));
 //# sourceMappingURL=index.js.map
