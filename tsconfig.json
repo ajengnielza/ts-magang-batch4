@@ -11,6 +11,8 @@
     "esModuleInterop": true,
     "skipLibCheck": true,
 
+    "types": ["node"],
+
     "sourceMap": true
   },
   "include": ["src/**/*"]
