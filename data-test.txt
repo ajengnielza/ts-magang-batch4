@@ -1,0 +1,1 @@
+Saya ajeng sedang belajar Declaration File dan @types

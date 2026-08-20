@@ -21,3 +21,6 @@ yarn-error.log*
 .idea/
 .DS_Store
 Thumbs.db
+
+# Pengecualian khusus agar data-test.txt tetap di-track oleh Git
+!data-test.txt
