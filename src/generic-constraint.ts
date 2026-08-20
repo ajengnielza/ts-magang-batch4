@@ -130,3 +130,7 @@ prosesJikaValid(tugas1, (task) => {
 prosesJikaValid(tugas2, (task) => {
   console.log(`${task.judul} berhasil diproses.`);
 });
+
+console.log("...");
+
+export {};

@@ -1,1 +1,0 @@
-{"version":3,"file":"JurnalHarian.js","sourceRoot":"","sources":["../../../src/challenge-export/models/JurnalHarian.ts"],"names":[],"mappings":";;AAAA;IACE,YACS,OAAe,EACf,QAAgB;uBADhB,OAAO;wBACP,QAAQ;IACd,CAAC;IAEJ,SAAS;QACP,OAAO,GAAG,IAAI,CAAC,OAAO,KAAK,IAAI,CAAC,QAAQ,EAAE,CAAC;IAC7C,CAAC;CACF"}

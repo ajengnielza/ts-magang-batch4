@@ -140,3 +140,5 @@ try {
     console.log("Terjadi error:", error.message);
   }
 }
+
+export {};

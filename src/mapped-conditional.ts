@@ -119,3 +119,5 @@ const hasilUnwrap: {
 };
 
 console.log("Soal 5:", hasilUnwrap);
+
+export {};

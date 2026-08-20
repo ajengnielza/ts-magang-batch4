@@ -6,3 +6,6 @@ const sedangBelajar: boolean = false;
 console.log(`Haii anyeong! Saya ${nama}.`);
 console.log(`Tahun ${tahun}, sedang belajar TypeScript: ${sedangBelajar}`);
 
+console.log("...");
+
+export {};

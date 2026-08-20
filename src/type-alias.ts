@@ -131,3 +131,4 @@ console.log(filterPeserta(pesertaList, "lulus"));
 console.log("\nPeserta Berhenti:");
 console.log(filterPeserta(pesertaList, "berhenti"));
 
+export {};

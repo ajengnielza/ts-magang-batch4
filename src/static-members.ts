@@ -19,6 +19,7 @@ const task4 = new SprintTask("Profile");
 const task5 = new SprintTask("Logout");
 
 console.log("Total Task :", SprintTask.getTotalTask());
+console.log(task1, task2, task3, task4, task5);
 
 // Static Readonly
 class AppConfig {
@@ -98,3 +99,7 @@ console.log(
     15
   )
 );
+
+console.log("...");
+
+export {};

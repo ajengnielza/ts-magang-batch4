@@ -115,3 +115,7 @@ const task = new SprintTask(
 console.log(kegiatan.deskripsi());
 console.log(jurnal.deskripsi());
 console.log(task.deskripsi());
+
+console.log("...");
+
+export {};

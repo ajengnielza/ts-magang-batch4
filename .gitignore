@@ -1,0 +1,23 @@
+# Dependencies (Folder pustaka/library)
+node_modules/
+
+# Production Build Output (Folder hasil kompilasi TypeScript)
+dist/
+build/
+*.tsbuildinfo
+
+# File Log & Debugging
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Environment Variables (Data rahasia)
+.env
+.env.local
+
+# File Editor / Sistem Operasi
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db

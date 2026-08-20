@@ -3,17 +3,33 @@
     "rootDir": "./src",
     "outDir": "./dist",
 
+    "paths": {
+     "@models/*": ["./src/challenge-export/models/*"],
+      "@utils/*": ["./src/challenge-export/utils/*"],
+      "@typings/*": ["./src/challenge-export/types/*"]
+    },
+    
+    "module": "commonjs",
     "target": "ES2020",
-    "module": "NodeNext",
-    "moduleResolution": "NodeNext",
-
-    "strict": true,
-    "esModuleInterop": true,
-    "skipLibCheck": true,
-
+    "lib": ["ES2020"],
     "types": ["node"],
 
-    "sourceMap": true
+    "sourceMap": true,
+    "declaration": true,
+
+    "strict": true,
+    "noImplicitAny": true,
+    "strictNullChecks": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "noImplicitReturns": true,
+
+    "esModuleInterop": true,
+    "resolveJsonModule": true,
+
+    "skipLibCheck": true
   },
-  "include": ["src/**/*"]
+
+  "include": ["src/**/*"],
+  "exclude": ["node_modules", "dist", "**/*.test.ts"]
 }

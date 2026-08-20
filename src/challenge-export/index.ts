@@ -1,7 +1,6 @@
-import {Peserta, JurnalHarian} from "./models";
-import { formatTanggal, isEmailValid} from "./utils";
-import { StatusPeserta } from "./types";
-
+import { Peserta, JurnalHarian } from "@models/index";
+import { formatTanggal, isEmailValid } from "@utils/index";
+import { StatusPeserta } from "@typings/index";
 const peserta1 = new Peserta(
     "Ajeng",
     "SMKN 6 Malang"

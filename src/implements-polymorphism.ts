@@ -65,6 +65,9 @@ class NotifikasiBiasa extends NotifikasiDasar {
     }
 }
 
+const notifikasiBiasa = new NotifikasiBiasa("Server sedang maintenance");
+console.log(notifikasiBiasa.kirim());
+console.log("Valid:", notifikasiBiasa.isValid());
 const urgent = new NotifikasiUrgent("Server mengalami gangguan");
 console.log(urgent.kirim());
 console.log("Valid :", urgent.isValid());
@@ -111,3 +114,6 @@ for (const laporan of daftarLaporan) {
     console.log(laporan.generate());
 }
 
+console.log("...");
+
+export {};

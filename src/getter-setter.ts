@@ -128,3 +128,7 @@ console.log(password.value);
 
 console.log(password.verifikasi("abc12345"));
 console.log(password.verifikasi("password"));
+
+console.log("...");
+
+export {};

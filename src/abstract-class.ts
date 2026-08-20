@@ -179,3 +179,7 @@ console.log(tugasHarian.info());
 
 console.log("===== TUGAS MINGGUAN =====");
 console.log(tugasMingguan.info());
+
+console.log("...");
+
+export {};

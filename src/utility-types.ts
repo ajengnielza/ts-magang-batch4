@@ -133,3 +133,7 @@ const updateAman2: JurnalAman = {
 
 console.log("Update aman 1:", updateAman1);
 console.log("Update aman 2:", updateAman2);
+
+console.log("...");
+
+export {};

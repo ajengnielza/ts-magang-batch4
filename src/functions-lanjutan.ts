@@ -74,3 +74,7 @@ const hasilFilter = daftarPeserta.filter(filter80);
 console.log("\n===== SOAL 4 =====");
 console.log("Peserta dengan nilai >= 80");
 console.log(hasilFilter);
+
+console.log("...");
+
+export {};

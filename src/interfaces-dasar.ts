@@ -146,3 +146,5 @@ function tampilkanPeserta(nama: string) {
 
 tampilkanPeserta("Ajeng");
 tampilkanPeserta("Azaa");
+
+export {};

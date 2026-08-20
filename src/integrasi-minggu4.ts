@@ -98,3 +98,7 @@ peserta.forEach((p) => {
 });
 
 console.log(`Total peserta terdaftar: ${PesertaDasar.getTotalPeserta()}`);
+
+console.log("...");
+
+export {};

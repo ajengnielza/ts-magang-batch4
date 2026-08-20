@@ -90,3 +90,7 @@ logAktivitas.tambah("Logout");
 console.log(logAktivitas.getSemua());
 console.log(logAktivitas.getTerakhir());
 console.log(logAktivitas.jumlah);
+
+console.log("...");
+
+export {};

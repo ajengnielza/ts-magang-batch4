@@ -139,3 +139,7 @@ const productState: ProductState = {
 console.log("\n--- Keterangan User dan Produk ---");
 console.log(userState);
 console.log(productState);
+
+console.log("...");
+
+export {};

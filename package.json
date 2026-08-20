@@ -3,19 +3,22 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "tsc --pretty false --listEmittedFiles",
-    "start": "npm run build && node dist/repository-pattern.js",
-    "watch": "tsc --watch --pretty false"
+    "build": "tsc && tsc-alias",
+    "dev": "npx tsx watch src/challenge-export/index.ts",
+   "start": "node dist/challenge-export/index.js",
+   "clean": "powershell -Command \"if (Test-Path dist) { Remove-Item -Recurse -Force dist }\"",
+    "rebuild": "npm run clean && npm run build"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "description": "",
   "dependencies": {
+    "tsconfig-paths": "^4.2.0",
     "typescript": "^7.0.2"
   },
   "devDependencies": {
-    "@types/node": "^26.2.0"
+    "@types/node": "^26.2.0",
+    "tsc-alias": "^1.9.2"
   }
 }

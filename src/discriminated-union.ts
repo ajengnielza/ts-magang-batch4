@@ -114,8 +114,8 @@ type CLICommand =
   | { command: "remove"; id: number }
   | { command: "list"; filter?: string }
   | { command: "clear" };
-
-function assertNever(x: never): never {
+  
+function assertNever(_x: never): never {
   throw new Error("Case tidak tertangani");
 }
 
@@ -163,3 +163,7 @@ console.log(executeCommand({
 console.log(executeCommand({
   command: "clear"
 }));
+
+console.log("...");
+
+export {};

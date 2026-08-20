@@ -75,3 +75,17 @@ function formatID(id: ID): string {
 
 console.log(formatID("usr-001")); // "USR-001"
 console.log(formatID(42));        // "ID-42"
+console.log(
+  namaLengkap,
+  usia,
+  aktif,
+  kota,
+  nilai,
+  dataAny,
+  namaKelas,
+  nilaiGanda,
+  userId
+);
+
+
+export {};

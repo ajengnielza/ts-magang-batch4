@@ -138,3 +138,7 @@ const daftar2: ListResponse<Peserta> = {
 
 console.log("List Default:", daftar1);
 console.log("List Custom:", daftar2);
+
+console.log("...");
+
+export {};
